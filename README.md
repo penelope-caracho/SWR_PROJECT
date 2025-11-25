@@ -157,9 +157,9 @@ Die Modellevaluation für die Text-Generierung befindet sich im Unterordner
 Diese Komponenten dienen ausschließlich der **Reproduzierbarkeit der Modellbewertung** und sind **nicht Teil des Spiels**.
 
 
-### Drittanbieter-Bibliotheken
+### Externe Komponenten und Ressourcen
 
-Das Projekt verwendet folgende Python-Bibliotheken unter ihren jeweiligen Open-Source-Lizenzen:  
+Das Projekt verwendet folgende Ressourcen:  
 
 - **spaCy** und **spacy-sentiws** – linguistische Analyse und Sentiment-Annotation  
   [https://spacy.io/](https://spacy.io/)  
