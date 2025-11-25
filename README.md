@@ -69,7 +69,7 @@ swr_project/
 │
 ├── model/
 │   ├── text_gen.py
-│   └── finetuned_model/               
+│   └── finetuned-gpt-atomic3-german-1-0/              
 │
 ├── data/
 │   ├── fasttext/
