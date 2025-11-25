@@ -146,13 +146,19 @@ Das verwendete feingetunte GPT-2-Modell basiert auf:
 
 ## Evaluierung und Reproduzierbarkeit
 
-Die Modellevaluation für die Text-Generierung befindet sich im Unterordner  
-`data/evaluation_model/`. Dieser enthält:
+Die Modellevaluation für die Text-Generierung befindet sich im Unterordner (nur auf Anfrage erhältlich). Dieser enthält: 
+`data/evaluation_model/` 
 - `evaluate_model.py` – generiert Sätze aus dem Modell und speichert sie als CSV  
 - `deu_news_2024_30K` - Corpus aus dem Nomen als Prompts ausgewählt wurden
 - `eval_ue_gs.py` – berechnet die Spiel- und Satzqualität  
 - `negative_noun_extractor.py` – extrahiert Testnomen aus dem Korpus  
 - `evaluation_results11ann.csv` – manuell annotierte Evaluationsdatei  
+`data/filter_kv/`
+- `filterkv.py`
+`data/finetuning_model/`
+- `train_model.py`
+- `trainingsdaten.jsonl`
+
 
 Diese Komponenten dienen ausschließlich der **Reproduzierbarkeit der Modellbewertung** und sind **nicht Teil des Spiels**.
 
