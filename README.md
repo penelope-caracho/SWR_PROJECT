@@ -163,6 +163,10 @@ Das Projekt verwendet folgende Python-Bibliotheken unter ihren jeweiligen Open-S
 
 - **spaCy** und **spacy-sentiws** – linguistische Analyse und Sentiment-Annotation  
   [https://spacy.io/](https://spacy.io/)  
+- **SentiWS** (Universität Leipzig) – deutsches Sentimentlexikon, eingebunden über *spacy-sentiws*  
+  [https://wortschatz.uni-leipzig.de/en/download/sentiws](https://wortschatz.uni-leipzig.de/en/download/sentiws)  
+- **FastText** (Meta) – vortrainierte Wortvektoren für semantische Ähnlichkeitsmessungen  
+  [https://fasttext.cc/](https://fasttext.cc/)  
 - **Transformers** (Hugging Face) – Fine-Tuning und Modellverwaltung  
   [https://huggingface.co/](https://huggingface.co/)  
 - **FastAPI** – Bereitstellung des Textgenerators als lokaler Webserver  
@@ -172,7 +176,7 @@ Das Projekt verwendet folgende Python-Bibliotheken unter ihren jeweiligen Open-S
 - **Gensim** – Zugriff auf FastText-Vektoren und Serialisierung  
   [https://radimrehurek.com/gensim/](https://radimrehurek.com/gensim/)  
 - **phonemizer** – phonetische Umschrift (mit Backend **eSpeak NG**)  
-  [https://github.com/bootphon/phonemizer](https://github.com/bootphon/phonemizer)  
+  [https://github.com/bootphon/phonemizer](https://github.com/bootphon/phonemizer)
   [https://github.com/espeak-ng/espeak-ng](https://github.com/espeak-ng/espeak-ng)  
 - **NumPy** – numerische Berechnungen  
   [https://numpy.org/](https://numpy.org/)
