@@ -148,6 +148,7 @@ Das verwendete feingetunte GPT-2-Modell basiert auf:
 
 Die Modellevaluation für die Text-Generierung befindet sich im Unterordner (nur auf Anfrage erhältlich). 
 Dieser enthält: 
+
 `data/evaluation_model/`:
 - `evaluate_model.py` – generiert Sätze aus dem Modell und speichert sie als CSV  
 - `deu_news_2024_30K` - Corpus aus dem Nomen als Prompts ausgewählt wurden
