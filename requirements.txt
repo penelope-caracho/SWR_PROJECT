@@ -1,0 +1,28 @@
+numpy==1.26.4
+
+# Webserver
+fastapi==0.116.1
+uvicorn==0.35.0
+pydantic==2.11.9
+
+# NLP und Vektoren
+spacy==3.8.7
+spacy_sentiws==3.0.0
+gensim==4.3.3
+wordfreq==3.1.1
+phonemizer==3.3.0
+
+# HuggingFace / GPT-2
+transformers==4.55.4
+tokenizers==0.21.4
+torch==2.2.2
+safetensors==0.6.2
+huggingface-hub==0.34.4
+
+# Sonstiges
+requests==2.32.5
+
+# SpaCy-Modell (de_core_news_md 3.8.0)
+de_core_news_md @ https://github.com/explosion/spacy-models/releases/download/de_core_news_md-3.8.0/de_core_news_md-3.8.0-py3-none-any.whl
+
+PyYAML==6.0.2

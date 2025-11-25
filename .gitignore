@@ -1,0 +1,32 @@
+# Virtuelle Umgebungen
+env/
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# MacOS Finder files
+.DS_Store
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Modelle & große Binärdateien, die NICHT ins Repo sollen
+*.kv
+*.npy
+*.model
+*.safetensors
+
+# spaCy Modelle (werden via requirements installiert)
+de_core_news_*
+
+# Lokale Daten- und Modellverzeichnisse (werden separat über Drive bereitgestellt)
+data/*
+!data/.gitkeep
+
+model/*
+!model/text_gen.py
+!model/.gitkeep

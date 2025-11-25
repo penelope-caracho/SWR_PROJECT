@@ -1,0 +1,30 @@
+paths:
+  sentiws: "data/SentiWS_v2.0"
+  fasttext: "data/fasttext/cc.de.300.filtered.kv"
+  model_dir: "model/finetuned-gpt-atomic3-german-1-0"
+
+server:
+  host: "127.0.0.1"
+  port: 8001
+
+phonemizer:
+  espeak_library: "/opt/homebrew/lib/libespeak-ng.dylib" # ggf. anpassen
+
+evaluation:
+  similarity_threshold: 0.02     
+  freq_min: 2                   
+  freq_min_oov_adj: 2.2          # wenn adj nicht im Vocab, vorher: freq_score > 2.2
+  freq_min_oov_noun: 2.79        # wenn Nomen nicht im Vocab, vorher: freq_score > 2.0
+  freq_hard_min: 3.5             # vorher: freq_score > 4.0 ("nützlicher Bus" sollte drin bleiben -> freq score: 3.62)
+
+sentiment:
+  neg_threshold: -0.004          # denn z.B. brutale = -0.0048, blutige = -0.0491 # (vorher -0.001, aber dann fliegt "heftig" und "hungrig" raus)
+  override:                      # override Funktion eingerichtet, weil ich der Ansicht war, klein sollte gelten (ausbaufähig)
+    klein: 0.01
+
+generator:
+  max_length: 18                 
+  num_return_sequences: 4        
+  top_k: 50                      
+  top_p: 0.9                    
+  temperature: 0.6               
